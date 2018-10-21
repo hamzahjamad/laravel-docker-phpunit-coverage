@@ -25,6 +25,16 @@ Run test coverage
 docker-compose exec app bash -c "./vendor/bin/phpunit --coverage-html ./tests/coverage_results"
 ```
 
+The coverage report can be found in /tests/coverage_results folder. 
+
+This is the index page.
+![alt text](storage/coverage_test_result_samples/index.png?raw=true "alt text")
+
+This is the dashboard page.
+![alt text](storage/coverage_test_result_samples/dashboard.png?raw=true "alt text")
+
+This is one of the file page.
+![alt text](storage/coverage_test_result_samples/file.png?raw=true "alt text") 
 
 
 ## Reference
