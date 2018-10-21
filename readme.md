@@ -19,6 +19,13 @@ Run this command to run migration
 docker-compose exec app php artisan migrate
 ```
 
+# Test
+Run test coverage
+```
+docker-compose exec app bash -c "./vendor/bin/phpunit --coverage-html ./tests/coverage_results"
+```
+
+
 
 ## Reference
 * [Laravel + Docker Part 1 — setup for Development](https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c)
