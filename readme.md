@@ -21,4 +21,4 @@ docker-compose exec app php artisan migrate
 
 
 ## Reference
-* [Laravel + Docker Part 1 — setup for Development]](https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c)
+* [Laravel + Docker Part 1 — setup for Development](https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c)
